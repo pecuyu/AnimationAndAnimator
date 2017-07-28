@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_animation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yu.animationandanimator.AnimationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/id_btn_alpha"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="alpha"
+            android:text="@string/alpha"
+            />
+        <Button
+            android:id="@+id/id_btn_scale"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:onClick="scale"
+            android:text="@string/scale"
+            />
+        <Button
+            android:id="@+id/id_btn_transition"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:onClick="transition"
+            android:text="@string/transition"
+            />
+        <Button
+            android:id="@+id/id_btn_rotation"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:onClick="rotation"
+            android:text="@string/rotation"
+            />
+        <Button
+            android:id="@+id/id_btn_set"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:onClick="set"
+            android:layout_height="wrap_content"
+            android:text="@string/set"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/id_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="133dp" />
+</RelativeLayout>

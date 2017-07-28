@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yu.animationandanimator.MainActivity">
+
+    <Button
+        android:id="@+id/id_btn_animation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="goAnimation"
+        android:text="@string/animation" />
+
+    <Button
+        android:id="@+id/id_btn_animator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="goAnimator"
+        android:text="@string/animator" />
+</LinearLayout>

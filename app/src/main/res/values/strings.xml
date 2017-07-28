@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AnimationAndAnimator</string>
+    <string name="animation">视图动画</string>
+    <string name="animator">属性动画</string>
+    <string name="alpha">透明度</string>
+    <string name="scale">縮放</string>
+    <string name="transition">平移</string>
+    <string name="rotation">旋转</string>
+    <string name="set">set</string>
+    <string name="ViewPropertyAnimator">ViewPropertyAnimator</string>
+    <string name="objectanimator">ObjectAnimator</string>
+    <string name="valueanimator">ValueAnimator</string>
+    <string name="propertyvaluesholder">PropertyValuesHolder</string>
+    <string name="AnimatorSet">AnimatorSet</string>
+</resources>
